@@ -16,14 +16,14 @@ def parse(s)
   end
 end
 
-def printGeogebra(points)
+def print_geogebra(points)
   points.each { |p| puts "#{p[:x]},#{p[:y]}" }
 end
 
 POINTS = parse(input)
 
 if $PROGRAM_NAME == __FILE__
-  printGeogebra(POINTS)
+  print_geogebra(POINTS)
 end
 
 

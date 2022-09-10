@@ -1,10 +1,9 @@
 # variant 10
 
-require_relative './parser'
+require_relative './t1-parser'
 
 def sumPart(i1, i2)
   p1, p2 = [POINTS[i1], POINTS[i2]]
-  puts "#{i1} #{i2}"
   xs = p1[:x] + p2[:x]
   yd = p1[:y] - p2[:y]
   (xs*yd)
