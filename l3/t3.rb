@@ -8,7 +8,7 @@ def two
   sum
 end
 
-def tree(x, n)
+def three(x, n)
   sum = 0.0
   x_pow = 1.0
   f_step = 0.0
@@ -27,4 +27,4 @@ puts two
 x = 5.0
 print "Input n: "
 n = gets.chop.to_i
-puts tree(x, n)
+puts three(x, n)
